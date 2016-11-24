@@ -1,0 +1,938 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2480 ]
+[d frameptr 4065 ]
+"17 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[e E15512 . `uc
+Debouncing 0
+Ready2Sample 1
+]
+"37
+[e E15444 . `c
+ES_Timer_ERR -1
+ES_Timer_ACTIVE 1
+ES_Timer_OK 0
+ES_Timer_NOT_ACTIVE 0
+]
+"54
+[e E1 . `uc
+ES_NO_EVENT 0
+ES_ERROR 1
+ES_INIT 2
+ES_TIMEOUT 3
+ES_SHORT_TIMEOUT 4
+DBButtonDown 5
+DBButtonUp 6
+]
+"56 /Users/jeannywang/Google Drive/Head_Device/ES_DeferRecall.c
+[e E1 . `uc
+ES_NO_EVENT 0
+ES_ERROR 1
+ES_INIT 2
+ES_TIMEOUT 3
+ES_SHORT_TIMEOUT 4
+DBButtonDown 5
+DBButtonUp 6
+]
+"68 /Users/jeannywang/Google Drive/Head_Device/ES_Framework.c
+[e E1 . `uc
+ES_NO_EVENT 0
+ES_ERROR 1
+ES_INIT 2
+ES_TIMEOUT 3
+ES_SHORT_TIMEOUT 4
+DBButtonDown 5
+DBButtonUp 6
+]
+"242
+[e E15421 . `ui
+ES_Timer_RATE_OFF 0
+ES_Timer_RATE_100uS 3999
+ES_Timer_RATE_500uS 19999
+ES_Timer_RATE_1mS -25537
+ES_Timer_RATE_2mS 14463
+ES_Timer_RATE_4mS 28927
+ES_Timer_RATE_5mS 3391
+ES_Timer_RATE_8mS -7681
+ES_Timer_RATE_10mS 6783
+ES_Timer_RATE_16mS -15361
+ES_Timer_RATE_32mS -30721
+]
+[e E15492 . `uc
+Success 0
+FailedPost 1
+FailedRun 2
+FailedPointer 3
+FailedIndex 4
+FailedInit 5
+]
+"72 /Users/jeannywang/Google Drive/Head_Device/ES_Port.c
+[e E15412 . `ui
+ES_Timer_RATE_OFF 0
+ES_Timer_RATE_100uS 3999
+ES_Timer_RATE_500uS 19999
+ES_Timer_RATE_1mS -25537
+ES_Timer_RATE_2mS 14463
+ES_Timer_RATE_4mS 28927
+ES_Timer_RATE_5mS 3391
+ES_Timer_RATE_8mS -7681
+ES_Timer_RATE_10mS 6783
+ES_Timer_RATE_16mS -15361
+ES_Timer_RATE_32mS -30721
+]
+"34 /Users/jeannywang/Google Drive/Head_Device/ES_PostList.c
+[e E15431 . `uc
+ES_NO_EVENT 0
+ES_ERROR 1
+ES_INIT 2
+ES_TIMEOUT 3
+ES_SHORT_TIMEOUT 4
+DBButtonDown 5
+DBButtonUp 6
+]
+"59 /Users/jeannywang/Google Drive/Head_Device/ES_Queue.c
+[e E1 . `uc
+ES_NO_EVENT 0
+ES_ERROR 1
+ES_INIT 2
+ES_TIMEOUT 3
+ES_SHORT_TIMEOUT 4
+DBButtonDown 5
+DBButtonUp 6
+]
+"93 /Users/jeannywang/Google Drive/Head_Device/ES_Timers.c
+[e E1 . `uc
+ES_NO_EVENT 0
+ES_ERROR 1
+ES_INIT 2
+ES_TIMEOUT 3
+ES_SHORT_TIMEOUT 4
+DBButtonDown 5
+DBButtonUp 6
+]
+"131
+[e E15421 . `ui
+ES_Timer_RATE_OFF 0
+ES_Timer_RATE_100uS 3999
+ES_Timer_RATE_500uS 19999
+ES_Timer_RATE_1mS -25537
+ES_Timer_RATE_2mS 14463
+ES_Timer_RATE_4mS 28927
+ES_Timer_RATE_5mS 3391
+ES_Timer_RATE_8mS -7681
+ES_Timer_RATE_10mS 6783
+ES_Timer_RATE_16mS -15361
+ES_Timer_RATE_32mS -30721
+]
+"153
+[e E15470 . `c
+ES_Timer_ERR -1
+ES_Timer_ACTIVE 1
+ES_Timer_OK 0
+ES_Timer_NOT_ACTIVE 0
+]
+"40 /Users/jeannywang/Google Drive/Head_Device/main.c
+[e E15644 . `uc
+Success 0
+FailedPost 1
+FailedRun 2
+FailedPointer 3
+FailedIndex 4
+FailedInit 5
+]
+"56
+[e E15573 . `ui
+ES_Timer_RATE_OFF 0
+ES_Timer_RATE_100uS 3999
+ES_Timer_RATE_500uS 19999
+ES_Timer_RATE_1mS -25537
+ES_Timer_RATE_2mS 14463
+ES_Timer_RATE_4mS 28927
+ES_Timer_RATE_5mS 3391
+ES_Timer_RATE_8mS -7681
+ES_Timer_RATE_10mS 6783
+ES_Timer_RATE_16mS -15361
+ES_Timer_RATE_32mS -30721
+]
+"89 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[e E30 . `uc
+ES_NO_EVENT 0
+ES_ERROR 1
+ES_INIT 2
+ES_TIMEOUT 3
+ES_SHORT_TIMEOUT 4
+DBButtonDown 5
+DBButtonUp 6
+]
+"154
+[e E15470 . `c
+ES_Timer_ERR -1
+ES_Timer_ACTIVE 1
+ES_Timer_OK 0
+ES_Timer_NOT_ACTIVE 0
+]
+"8 /Applications/microchip/xc8/v1.38/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"464 /Applications/microchip/xc8/v1.38/sources/common/doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 /Applications/microchip/xc8/v1.38/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /Applications/microchip/xc8/v1.38/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /Applications/microchip/xc8/v1.38/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 /Applications/microchip/xc8/v1.38/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 /Applications/microchip/xc8/v1.38/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"4 /Applications/microchip/xc8/v1.38/sources/common/lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"7 /Applications/microchip/xc8/v1.38/sources/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 /Applications/microchip/xc8/v1.38/sources/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /Applications/microchip/xc8/v1.38/sources/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /Applications/microchip/xc8/v1.38/sources/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /Applications/microchip/xc8/v1.38/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 /Applications/microchip/xc8/v1.38/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"27 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[v _InitializeButtonDebounce InitializeButtonDebounce `(uc  1 e 1 0 ]
+"44
+[v _CheckButtonEvents CheckButtonEvents `(uc  1 e 1 0 ]
+"75
+[v _PostButtonDebounceSM PostButtonDebounceSM `(uc  1 e 1 0 ]
+"24 /Users/jeannywang/Google Drive/Head_Device/ES_Events.h
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"83 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[v _RunButtonDebounceSM RunButtonDebounceSM `(S51  1 e 3 0 ]
+"129
+[v _GetInputLine GetInputLine `(uc  1 s 1 GetInputLine ]
+"134
+[v _InitButtonHW InitButtonHW `(v  1 s 1 InitButtonHW ]
+"87 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[v _InitCan_XmitService InitCan_XmitService `(uc  1 e 1 0 ]
+"118
+[v _PostCan_XmitService PostCan_XmitService `(uc  1 e 1 0 ]
+"24 /Users/jeannywang/Google Drive/Head_Device/ES_Events.h
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"138 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[v _RunCan_XmitService RunCan_XmitService `(S51  1 e 3 0 ]
+"196
+[v _CanXmitResponse CanXmitResponse `(v  1 e 1 0 ]
+"201
+[v _CanRCVResponse CanRCVResponse `(v  1 e 1 0 ]
+"208
+[v _CanErrorResponse CanErrorResponse `(v  1 e 1 0 ]
+"213
+[v _BusErrorResponse BusErrorResponse `(v  1 e 1 0 ]
+"221
+[v _InitCanHardware InitCanHardware `(v  1 s 1 InitCanHardware ]
+"289
+[v _InitPins InitPins `(v  1 s 1 InitPins ]
+"300
+[v _XmitData XmitData `(v  1 s 1 XmitData ]
+"46 /Users/jeannywang/Google Drive/Head_Device/ES_CheckEvents.c
+[v _ES_CheckUserEvents ES_CheckUserEvents `(uc  1 e 1 0 ]
+"242 /Users/jeannywang/Google Drive/Head_Device/ES_Framework.c
+[v _ES_Initialize ES_Initialize `(E15492  1 e 1 0 ]
+"277
+[v _ES_Run ES_Run `(E15492  1 e 1 0 ]
+"318
+[v _ES_PostAll ES_PostAll `(uc  1 e 1 0 ]
+"351
+[v _ES_PostToService ES_PostToService `(uc  1 e 1 0 ]
+"376
+[v _ES_PostToServiceLIFO ES_PostToServiceLIFO `(uc  1 e 1 0 ]
+"79 /Users/jeannywang/Google Drive/Head_Device/ES_LookupTables.c
+[v _ES_GetMSBitSet ES_GetMSBitSet `(uc  1 e 1 0 ]
+"71 /Users/jeannywang/Google Drive/Head_Device/ES_Port.c
+[v __HW_Timer_Init _HW_Timer_Init `(v  1 e 1 0 ]
+"111
+[v _ISR ISR `II(v  1 e 1 0 ]
+"194
+[v __HW_GetTickCount _HW_GetTickCount `(ui  1 e 2 0 ]
+"220
+[v __HW_Process_Pending_Ints _HW_Process_Pending_Ints `(uc  1 e 1 0 ]
+"142 /Users/jeannywang/Google Drive/Head_Device/ES_PostList.c
+[v _PostToList PostToList `(uc  1 s 1 PostToList ]
+"58 /Users/jeannywang/Google Drive/Head_Device/ES_Queue.c
+[v _ES_InitQueue ES_InitQueue `(uc  1 e 1 0 ]
+"85
+[v _ES_EnQueueFIFO ES_EnQueueFIFO `(uc  1 e 1 0 ]
+"123
+[v _ES_EnQueueLIFO ES_EnQueueLIFO `(uc  1 e 1 0 ]
+"164
+[v _ES_DeQueue ES_DeQueue `(uc  1 e 1 0 ]
+"130 /Users/jeannywang/Google Drive/Head_Device/ES_Timers.c
+[v _ES_Timer_Init ES_Timer_Init `(v  1 e 1 0 ]
+"205
+[v _ES_Timer_StopTimer ES_Timer_StopTimer `(E15470  1 e 1 0 ]
+"229
+[v _ES_Timer_InitTimer ES_Timer_InitTimer `(E15444  1 e 1 0 ]
+"284
+[v _ES_Timer_Tick_Resp ES_Timer_Tick_Resp `(v  1 e 1 0 ]
+"62 /Users/jeannywang/Google Drive/Head_Device/EventCheckers.c
+[v _Check4Keystroke Check4Keystroke `(uc  1 e 1 0 ]
+"25 /Users/jeannywang/Google Drive/Head_Device/main.c
+[v _main main `(i  1 e 2 0 ]
+"16255 /Applications/microchip/xc8/v1.38/include/pic18f2480.h
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3840 ]
+"16387
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3841 ]
+"16500
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3842 ]
+"16632
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3843 ]
+"19309
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @3864 ]
+"19441
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @3865 ]
+"19545
+[v _RXM0EIDH RXM0EIDH `VEuc  1 e 1 @3866 ]
+"19677
+[v _RXM0EIDL RXM0EIDL `VEuc  1 e 1 @3867 ]
+[s S628 . 1 `uc 1 TXPRI0 1 0 :1:0 
+`uc 1 TXPRI1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXREQ 1 0 :1:3 
+`uc 1 TXERR 1 0 :1:4 
+`uc 1 TXLARB 1 0 :1:5 
+`uc 1 TXABT 1 0 :1:6 
+`uc 1 TXBIF 1 0 :1:7 
+]
+"23109
+[s S637 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 TX0IF 1 0 :1:7 
+]
+[s S640 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TXB0ABT 1 0 :1:6 
+]
+[s S643 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXB0ERR 1 0 :1:4 
+]
+[s S646 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXB0LARB 1 0 :1:5 
+]
+[s S649 . 1 `uc 1 TXB0PRI0 1 0 :1:0 
+]
+[s S651 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TXB0PRI1 1 0 :1:1 
+]
+[s S654 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TXB0REQ 1 0 :1:3 
+]
+[u S657 . 1 `S628 1 . 1 0 `S637 1 . 1 0 `S640 1 . 1 0 `S643 1 . 1 0 `S646 1 . 1 0 `S649 1 . 1 0 `S651 1 . 1 0 `S654 1 . 1 0 ]
+[v _TXB0CONbits TXB0CONbits `VES657  1 e 1 @3904 ]
+"23183
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"23315
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"23419
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"23551
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"23683
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"23771
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"23832
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3911 ]
+[s S696 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RXB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"26001
+[s S705 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RXB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S712 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S719 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RXBODBEN 1 0 :1:2 
+]
+[s S722 . 1 `uc 1 RXB0FILHIT0 1 0 :1:0 
+]
+[s S724 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXB0FILHIT1 1 0 :1:1 
+]
+[s S727 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RXB0FILHIT2 1 0 :1:2 
+]
+[s S730 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0FILHIT3 1 0 :1:3 
+]
+[s S733 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RXB0FILHIT4 1 0 :1:4 
+]
+[s S736 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RXB0FUL 1 0 :1:7 
+]
+[s S739 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXB0M0 1 0 :1:5 
+]
+[s S742 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RXB0M1 1 0 :1:6 
+]
+[s S745 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0RTRR0 1 0 :1:3 
+]
+[s S748 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXB0RTRRO 1 0 :1:5 
+]
+[u S751 . 1 `S696 1 . 1 0 `S705 1 . 1 0 `S712 1 . 1 0 `S719 1 . 1 0 `S722 1 . 1 0 `S724 1 . 1 0 `S727 1 . 1 0 `S730 1 . 1 0 `S733 1 . 1 0 `S736 1 . 1 0 `S739 1 . 1 0 `S742 1 . 1 0 `S745 1 . 1 0 `S748 1 . 1 0 ]
+[v _RXB0CONbits RXB0CONbits `VES751  1 e 1 @3936 ]
+[s S823 . 1 `uc 1 EICODE0 1 0 :1:0 
+`uc 1 EICODE1_ICODE0 1 0 :1:1 
+`uc 1 EICODE2_ICODE1 1 0 :1:2 
+`uc 1 EICODE3_ICODE2 1 0 :1:3 
+`uc 1 EICODE4 1 0 :1:4 
+`uc 1 OPMODE0 1 0 :1:5 
+`uc 1 OPMODE1 1 0 :1:6 
+`uc 1 OPMODE2 1 0 :1:7 
+]
+"27303
+[s S832 . 1 `uc 1 ICODE0 1 0 :1:0 
+`uc 1 ICODE1 1 0 :1:1 
+`uc 1 ICODE2 1 0 :1:2 
+`uc 1 ICODE3 1 0 :1:3 
+]
+[s S837 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 EICODE1 1 0 :1:1 
+`uc 1 EICODE2 1 0 :1:2 
+`uc 1 EICODE3 1 0 :1:3 
+]
+[u S842 . 1 `S823 1 . 1 0 `S832 1 . 1 0 `S837 1 . 1 0 ]
+[v _CANSTATbits CANSTATbits `VES842  1 e 1 @3950 ]
+"27382
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+[s S895 . 1 `uc 1 BRP0 1 0 :1:0 
+`uc 1 BRP1 1 0 :1:1 
+`uc 1 BRP2 1 0 :1:2 
+`uc 1 BRP3 1 0 :1:3 
+`uc 1 BRP4 1 0 :1:4 
+`uc 1 BRP5 1 0 :1:5 
+`uc 1 SJW0 1 0 :1:6 
+`uc 1 SJW1 1 0 :1:7 
+]
+"27502
+[u S904 . 1 `S895 1 . 1 0 ]
+[v _BRGCON1bits BRGCON1bits `VES904  1 e 1 @3952 ]
+[s S867 . 1 `uc 1 PRSEG0 1 0 :1:0 
+`uc 1 PRSEG1 1 0 :1:1 
+`uc 1 PRSEG2 1 0 :1:2 
+`uc 1 SEG1PH0 1 0 :1:3 
+`uc 1 SEG1PH1 1 0 :1:4 
+`uc 1 SEG1PH2 1 0 :1:5 
+`uc 1 SAM 1 0 :1:6 
+`uc 1 SEG2PHT 1 0 :1:7 
+]
+"27567
+[s S876 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SEG2PHTS 1 0 :1:7 
+]
+[u S879 . 1 `S867 1 . 1 0 `S876 1 . 1 0 ]
+[v _BRGCON2bits BRGCON2bits `VES879  1 e 1 @3953 ]
+[s S916 . 1 `uc 1 SEG2PH0 1 0 :1:0 
+`uc 1 SEG2PH1 1 0 :1:1 
+`uc 1 SEG2PH2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 WAKFIL 1 0 :1:6 
+`uc 1 WAKDIS 1 0 :1:7 
+]
+"27631
+[u S923 . 1 `S916 1 . 1 0 ]
+[v _BRGCON3bits BRGCON3bits `VES923  1 e 1 @3954 ]
+"27660
+[v _CIOCON CIOCON `VEuc  1 e 1 @3955 ]
+"27929
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"28209
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"28382
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"28724
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"28856
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S952 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"29241
+[s S961 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S970 . 1 `S952 1 . 1 0 `S961 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES970  1 e 1 @3987 ]
+"29722
+[v _PIE1 PIE1 `VEuc  1 e 1 @3997 ]
+"31379
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"31448
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"31454
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @4031 ]
+"31530 /Applications/microchip/xc8/v1.38/include/PIC18F2480.h
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"32341 /Applications/microchip/xc8/v1.38/include/pic18f2480.h
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"33470
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"35320
+"35320
+[v _CCP1IF CCP1IF `VEb  1 e 0 @31986 ]
+"35428
+[v _ERRIE ERRIE `VEb  1 e 0 @32029 ]
+"35430
+[v _ERRIF ERRIF `VEb  1 e 0 @32037 ]
+"35692
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"35790 /Applications/microchip/xc8/v1.38/include/PIC18F2480.h
+[v _IRCF0 IRCF0 `VEb  1 e 0 @32412 ]
+"35792
+[v _IRCF1 IRCF1 `VEb  1 e 0 @32413 ]
+"35794
+[v _IRCF2 IRCF2 `VEb  1 e 0 @32414 ]
+"35798 /Applications/microchip/xc8/v1.38/include/pic18f2480.h
+[v _IRXIE IRXIE `VEb  1 e 0 @32031 ]
+"35800
+[v _IRXIF IRXIF `VEb  1 e 0 @32039 ]
+"36010
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36342
+[v _RXB0IE RXB0IE `VEb  1 e 0 @32024 ]
+"36344
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"37780 /Applications/microchip/xc8/v1.38/include/PIC18F2480.h
+[v _SCS1 SCS1 `VEb  1 e 0 @32409 ]
+"38264 /Applications/microchip/xc8/v1.38/include/pic18f2480.h
+[v _TXB0IE TXB0IE `VEb  1 e 0 @32026 ]
+"38266
+[v _TXB0IF TXB0IF `VEb  1 e 0 @32034 ]
+"17 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[v _CurrentState CurrentState `E15512  1 s 1 CurrentState ]
+"18
+[v _MyPriority MyPriority `uc  1 s 1 MyPriority ]
+"19
+[v _LastButtonState LastButtonState `uc  1 s 1 LastButtonState ]
+"58 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[v Can_XmitService@MyPriority MyPriority `uc  1 s 1 MyPriority ]
+"59
+[v _IsListening IsListening `uc  1 s 1 IsListening ]
+"61
+[v _IdleData IdleData `[1]uc  1 s 1 IdleData ]
+"62
+[v _SpeakingData SpeakingData `[1]uc  1 s 1 SpeakingData ]
+"63
+[v _LoadingData LoadingData `[1]uc  1 s 1 LoadingData ]
+"64
+[v _ListeningIdleData ListeningIdleData `[2]uc  1 s 2 ListeningIdleData ]
+"65
+[v _ListeningLeftData ListeningLeftData `[2]uc  1 s 2 ListeningLeftData ]
+"66
+[v _ListeningRightData ListeningRightData `[2]uc  1 s 2 ListeningRightData ]
+"67
+[v _ListeningCenterData ListeningCenterData `[2]uc  1 s 2 ListeningCenterData ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"68 /Users/jeannywang/Google Drive/Head_Device/ES_Framework.c
+[s S150 . 4 `*.37(uc 1 InitFunc 2 0 `*.37(S51 1 RunFunc 2 2 ]
+[v _ServDescList ServDescList `C[2]S150  1 s 8 ServDescList ]
+"122
+[v _Queue0 Queue0 `[4]S51  1 s 12 Queue0 ]
+"124
+[v _Queue1 Queue1 `[4]S51  1 s 12 Queue1 ]
+"172
+[s S173 . 3 `*.39S51 1 pMem 2 0 `uc 1 Size 1 2 ]
+[v _EventQueues EventQueues `C[2]S173  1 s 6 EventQueues ]
+"224
+[v _Ready Ready `ui  1 e 2 0 ]
+"62 /Users/jeannywang/Google Drive/Head_Device/ES_LookupTables.c
+[v _BitNum2SetMask BitNum2SetMask `C[16]ui  1 e 32 0 ]
+"74
+[v _Nybble2MSBitNum Nybble2MSBitNum `C[15]uc  1 e 15 0 ]
+"44 /Users/jeannywang/Google Drive/Head_Device/ES_Port.c
+[v _TickCount TickCount `VEuc  1 s 1 TickCount ]
+"50
+[v _SysTickCounter SysTickCounter `VEui  1 s 2 SysTickCounter ]
+"34 /Users/jeannywang/Google Drive/Head_Device/ES_PostList.c
+[v _DistList00 DistList00 `C[1]*.2(uc  1 s 2 DistList00 ]
+"73 /Users/jeannywang/Google Drive/Head_Device/ES_Timers.c
+[v _TMR_TimerArray TMR_TimerArray `[16]ui  1 s 32 TMR_TimerArray ]
+"91
+[v _TMR_ActiveFlags TMR_ActiveFlags `ui  1 s 2 TMR_ActiveFlags ]
+"93
+[v _Timer2PostFunc Timer2PostFunc `C[16]*.2(uc  1 s 32 Timer2PostFunc ]
+"31 /Users/jeannywang/Google Drive/Head_Device/EventCheckers.h
+[v _ES_EventList ES_EventList `C[2]*.2(uc  1 s 4 ES_EventList ]
+"25 /Users/jeannywang/Google Drive/Head_Device/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"40
+[v main@ErrorType ErrorType `E15644  1 a 1 15 ]
+"80
+} 0
+"464 /Applications/microchip/xc8/v1.38/sources/common/doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 18 ]
+"499
+[v printf@c c `c  1 a 1 20 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 16 ]
+"1541
+} 0
+"7 /Applications/microchip/xc8/v1.38/sources/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"277 /Users/jeannywang/Google Drive/Head_Device/ES_Framework.c
+[v _ES_Run ES_Run `(E15492  1 e 1 0 ]
+{
+"279
+[v ES_Run@HighestPrior HighestPrior `uc  1 a 1 14 ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"280
+[v ES_Run@ThisEvent ThisEvent `S51  1 s 3 ThisEvent ]
+"302
+} 0
+"220 /Users/jeannywang/Google Drive/Head_Device/ES_Port.c
+[v __HW_Process_Pending_Ints _HW_Process_Pending_Ints `(uc  1 e 1 0 ]
+{
+"230
+} 0
+"284 /Users/jeannywang/Google Drive/Head_Device/ES_Timers.c
+[v _ES_Timer_Tick_Resp ES_Timer_Tick_Resp `(v  1 e 1 0 ]
+{
+"286
+[v ES_Timer_Tick_Resp@NeedsProcessing NeedsProcessing `ui  1 s 2 NeedsProcessing ]
+"287
+[v ES_Timer_Tick_Resp@NextTimer2Process NextTimer2Process `uc  1 s 1 NextTimer2Process ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"288
+[v ES_Timer_Tick_Resp@NewEvent NewEvent `S51  1 s 3 NewEvent ]
+"312
+} 0
+"75 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[v _PostButtonDebounceSM PostButtonDebounceSM `(uc  1 e 1 0 ]
+{
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+[v PostButtonDebounceSM@ThisEvent ThisEvent `S51  1 p 3 1 ]
+"79
+} 0
+"118 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[v _PostCan_XmitService PostCan_XmitService `(uc  1 e 1 0 ]
+{
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+[v PostCan_XmitService@ThisEvent ThisEvent `S51  1 p 3 1 ]
+"121
+} 0
+"79 /Users/jeannywang/Google Drive/Head_Device/ES_LookupTables.c
+[v _ES_GetMSBitSet ES_GetMSBitSet `(uc  1 e 1 0 ]
+{
+"81
+[v ES_GetMSBitSet@LoopCntr LoopCntr `c  1 a 1 25 ]
+"82
+[v ES_GetMSBitSet@Nybble2Test Nybble2Test `uc  1 a 1 24 ]
+"83
+[v ES_GetMSBitSet@ReturnVal ReturnVal `uc  1 a 1 23 ]
+"79
+[v ES_GetMSBitSet@Val2Check Val2Check `ui  1 p 2 16 ]
+"100
+} 0
+"24 /Users/jeannywang/Google Drive/Head_Device/ES_Events.h
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"83 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[v _RunButtonDebounceSM RunButtonDebounceSM `(S51  1 e 3 0 ]
+{
+"122
+[v RunButtonDebounceSM@ReturnEvent ReturnEvent `S51  1 a 3 4 ]
+"83
+[v RunButtonDebounceSM@ThisEvent ThisEvent `S51  1 p 3 1 ]
+"126
+} 0
+"24 /Users/jeannywang/Google Drive/Head_Device/ES_Events.h
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"138 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[v _RunCan_XmitService RunCan_XmitService `(S51  1 e 3 0 ]
+{
+"140
+[v RunCan_XmitService@ReturnEvent ReturnEvent `S51  1 a 3 6 ]
+"138
+[v RunCan_XmitService@ThisEvent ThisEvent `S51  1 p 3 1 ]
+"194
+} 0
+"300
+[v _XmitData XmitData `(v  1 s 1 XmitData ]
+{
+[v XmitData@DataBytes DataBytes `*.39uc  1 p 2 16 ]
+[v XmitData@numBytes numBytes `uc  1 p 1 18 ]
+"320
+} 0
+"289
+[v _InitPins InitPins `(v  1 s 1 InitPins ]
+{
+"297
+} 0
+"221
+[v _InitCanHardware InitCanHardware `(v  1 s 1 InitCanHardware ]
+{
+"287
+} 0
+"205 /Users/jeannywang/Google Drive/Head_Device/ES_Timers.c
+[v _ES_Timer_StopTimer ES_Timer_StopTimer `(E15470  1 e 1 0 ]
+{
+[v ES_Timer_StopTimer@Num Num `uc  1 a 1 wreg ]
+[v ES_Timer_StopTimer@Num Num `uc  1 a 1 wreg ]
+"207
+[v ES_Timer_StopTimer@Num Num `uc  1 a 1 20 ]
+"211
+} 0
+"318 /Users/jeannywang/Google Drive/Head_Device/ES_Framework.c
+[v _ES_PostAll ES_PostAll `(uc  1 e 1 0 ]
+{
+"320
+[v ES_PostAll@i i `uc  1 a 1 0 ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"318
+[v ES_PostAll@ThisEvent ThisEvent `S51  1 p 3 39 ]
+"334
+} 0
+"164 /Users/jeannywang/Google Drive/Head_Device/ES_Queue.c
+[v _ES_DeQueue ES_DeQueue `(uc  1 e 1 0 ]
+{
+[s S419 . 3 `uc 1 QueueSize 1 0 `uc 1 CurrentIndex 1 1 `uc 1 NumEntries 1 2 ]
+"167
+[v ES_DeQueue@pThisQueue pThisQueue `*.39S419  1 a 2 36 ]
+"168
+[v ES_DeQueue@NumLeft NumLeft `uc  1 a 1 35 ]
+"166
+[v ES_DeQueue@SaveCrit SaveCrit `uc  1 a 1 34 ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"164
+[v ES_DeQueue@pBlock pBlock `*.39S51  1 p 2 28 ]
+[v ES_DeQueue@pReturnEvent pReturnEvent `*.39S51  1 p 2 30 ]
+"189
+} 0
+"4 /Applications/microchip/xc8/v1.38/sources/common/lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 19 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 18 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 16 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 17 ]
+"18
+} 0
+"46 /Users/jeannywang/Google Drive/Head_Device/ES_CheckEvents.c
+[v _ES_CheckUserEvents ES_CheckUserEvents `(uc  1 e 1 0 ]
+{
+"48
+[v ES_CheckUserEvents@i i `uc  1 a 1 9 ]
+"58
+} 0
+"62 /Users/jeannywang/Google Drive/Head_Device/EventCheckers.c
+[v _Check4Keystroke Check4Keystroke `(uc  1 e 1 0 ]
+{
+"79
+} 0
+"44 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[v _CheckButtonEvents CheckButtonEvents `(uc  1 e 1 0 ]
+{
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"54
+[v CheckButtonEvents@ThisEvent ThisEvent `S51  1 a 3 5 ]
+"46
+[v CheckButtonEvents@CurrentButtonState CurrentButtonState `uc  1 a 1 8 ]
+"47
+[v CheckButtonEvents@ReturnVal ReturnVal `uc  1 a 1 4 ]
+"72
+} 0
+"242 /Users/jeannywang/Google Drive/Head_Device/ES_Framework.c
+[v _ES_Initialize ES_Initialize `(E15492  1 e 1 0 ]
+{
+"243
+[v ES_Initialize@i i `uc  1 a 1 7 ]
+"242
+[v ES_Initialize@NewRate NewRate `E15421  1 p 2 5 ]
+"257
+} 0
+"87 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[v _InitCan_XmitService InitCan_XmitService `(uc  1 e 1 0 ]
+{
+[v InitCan_XmitService@Priority Priority `uc  1 a 1 wreg ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"89
+[v InitCan_XmitService@ThisEvent ThisEvent `S51  1 a 3 1 ]
+"87
+[v InitCan_XmitService@Priority Priority `uc  1 a 1 wreg ]
+"91
+[v InitCan_XmitService@Priority Priority `uc  1 a 1 4 ]
+"102
+} 0
+"27 /Users/jeannywang/Google Drive/Head_Device/Button.c
+[v _InitializeButtonDebounce InitializeButtonDebounce `(uc  1 e 1 0 ]
+{
+[v InitializeButtonDebounce@Priority Priority `uc  1 a 1 wreg ]
+[v InitializeButtonDebounce@Priority Priority `uc  1 a 1 wreg ]
+"29
+[v InitializeButtonDebounce@Priority Priority `uc  1 a 1 21 ]
+"41
+} 0
+"134
+[v _InitButtonHW InitButtonHW `(v  1 s 1 InitButtonHW ]
+{
+"139
+} 0
+"129
+[v _GetInputLine GetInputLine `(uc  1 s 1 GetInputLine ]
+{
+"132
+} 0
+"229 /Users/jeannywang/Google Drive/Head_Device/ES_Timers.c
+[v _ES_Timer_InitTimer ES_Timer_InitTimer `(E15444  1 e 1 0 ]
+{
+[v ES_Timer_InitTimer@Num Num `uc  1 a 1 wreg ]
+[v ES_Timer_InitTimer@Num Num `uc  1 a 1 wreg ]
+[v ES_Timer_InitTimer@NewTime NewTime `ui  1 p 2 16 ]
+"236
+[v ES_Timer_InitTimer@Num Num `uc  1 a 1 20 ]
+"241
+} 0
+"351 /Users/jeannywang/Google Drive/Head_Device/ES_Framework.c
+[v _ES_PostToService ES_PostToService `(uc  1 e 1 0 ]
+{
+[v ES_PostToService@WhichService WhichService `uc  1 a 1 wreg ]
+[v ES_PostToService@WhichService WhichService `uc  1 a 1 wreg ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+[v ES_PostToService@TheEvent TheEvent `S51  1 p 3 39 ]
+"354
+[v ES_PostToService@WhichService WhichService `uc  1 a 1 0 ]
+"359
+} 0
+"85 /Users/jeannywang/Google Drive/Head_Device/ES_Queue.c
+[v _ES_EnQueueFIFO ES_EnQueueFIFO `(uc  1 e 1 0 ]
+{
+[s S419 . 3 `uc 1 QueueSize 1 0 `uc 1 CurrentIndex 1 1 `uc 1 NumEntries 1 2 ]
+"88
+[v ES_EnQueueFIFO@pThisQueue pThisQueue `*.39S419  1 a 2 37 ]
+"87
+[v ES_EnQueueFIFO@SaveCrit SaveCrit `uc  1 a 1 36 ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"85
+[v ES_EnQueueFIFO@pBlock pBlock `*.39S51  1 p 2 28 ]
+[v ES_EnQueueFIFO@Event2Add Event2Add `S51  1 p 3 30 ]
+"104
+} 0
+"15 /Applications/microchip/xc8/v1.38/sources/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 26 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 22 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 24 ]
+"53
+} 0
+"8 /Applications/microchip/xc8/v1.38/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 21 ]
+[v ___awmod@counter counter `uc  1 a 1 20 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 16 ]
+[v ___awmod@divisor divisor `i  1 p 2 18 ]
+"35
+} 0
+"130 /Users/jeannywang/Google Drive/Head_Device/ES_Timers.c
+[v _ES_Timer_Init ES_Timer_Init `(v  1 e 1 0 ]
+{
+[v ES_Timer_Init@Rate Rate `E15421  1 p 2 18 ]
+"134
+} 0
+"71 /Users/jeannywang/Google Drive/Head_Device/ES_Port.c
+[v __HW_Timer_Init _HW_Timer_Init `(v  1 e 1 0 ]
+{
+[v __HW_Timer_Init@Rate Rate `E15412  1 p 2 16 ]
+"109
+} 0
+"58 /Users/jeannywang/Google Drive/Head_Device/ES_Queue.c
+[v _ES_InitQueue ES_InitQueue `(uc  1 e 1 0 ]
+{
+[s S419 . 3 `uc 1 QueueSize 1 0 `uc 1 CurrentIndex 1 1 `uc 1 NumEntries 1 2 ]
+"60
+[v ES_InitQueue@pThisQueue pThisQueue `*.39S419  1 a 2 19 ]
+[s S51 ES_Event_t 3 `E1 1 EventType 1 0 `ui 1 EventParam 2 1 ]
+"58
+[v ES_InitQueue@pBlock pBlock `*.39S51  1 p 2 16 ]
+[v ES_InitQueue@BlockSize BlockSize `uc  1 p 1 18 ]
+"68
+} 0
+"111 /Users/jeannywang/Google Drive/Head_Device/ES_Port.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"114
+[v ISR@LastTime LastTime `ui  1 s 2 LastTime ]
+"115
+[v ISR@NextTime NextTime `ui  1 s 2 NextTime ]
+"147
+} 0
+"196 /Users/jeannywang/Google Drive/Head_Device/Can_XmitService.c
+[v _CanXmitResponse CanXmitResponse `(v  1 e 1 0 ]
+{
+"199
+} 0
+"201
+[v _CanRCVResponse CanRCVResponse `(v  1 e 1 0 ]
+{
+"206
+} 0
+"208
+[v _CanErrorResponse CanErrorResponse `(v  1 e 1 0 ]
+{
+"211
+} 0
+"213
+[v _BusErrorResponse BusErrorResponse `(v  1 e 1 0 ]
+{
+"216
+} 0
